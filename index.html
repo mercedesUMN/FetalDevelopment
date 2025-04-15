@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Fetal Atlas Alpha Build</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<h1>Fetal Atlas Alpha Build</h1>
+
+	<div class=row>
+		<div class=column>
+			<h2>Native</h2>
+			<img id="native_img" src="assets/125_1_F004_Artboard_4a_Artboard F004.png" height=600 />
+		</div>
+		<div class=column>
+			<h2>Training Wheels</h2>
+			<img id="training_img" src="assets/125_1_F004_Artboard_4a_Artboard F004.png" height=600 />
+			<img class="overlay_img" src="" height=600 style="z-index: 1;"/>
+			<img class="overlay_img" src="" height=600 style="z-index: 2;"/>
+			<img class="overlay_img" src="" height=600 style="z-index: 3;"/>
+			<img class="overlay_img" src="" height=600 style="z-index: 4;"/>
+			<img class="overlay_img" src="" height=600 style="z-index: 5;"/>
+			<img class="overlay_img" src="" height=600 style="z-index: 6;"/>
+			<img class="overlay_img" src="" height=600 style="z-index: 7;"/>
+			<img class="overlay_img" src="" height=600 style="z-index: 8;"/>
+			<img class="overlay_img" src="" height=600 style="z-index: 9;"/>
+		</div>
+		<div class=small-column>
+			<fieldset>
+				<legend>Select the anatomical structures you would like highlighted</legend>
+				<button class=button2 type="button">
+					<label class="container">Hepatic
+						<input type="checkbox" id="hepatic">
+						<span class="checkmark"></span>
+					</label>
+				</button>
+				<button class=button3 type="button">
+					<label class="container">Gastro
+						<input type="checkbox" id="gastro">
+						<span class="checkmark"></span>
+					</label>
+				</button>
+				<button class=button4 type="button">
+					<label class="container">Pulmonary
+						<input type="checkbox" id="pulmonary">
+						<span class="checkmark"></span>
+					</label>
+				</button>
+				<button class=button5 type="button">
+					<label class="container">Adrenal
+						<input type="checkbox" id="adrenal">
+						<span class="checkmark"></span>
+					</label>
+				</button>
+				<button class=button6 type="button">
+					<label class="container">Renal
+						<input type="checkbox" id="renal">
+						<span class="checkmark"></span>
+					</label>
+				</button>
+				<button class=button7 type="button">
+					<label class="container">Cardiac
+						<input type="checkbox" id="cardiac">
+						<span class="checkmark"></span>
+					</label>
+				</button>
+				<button class=button8 type="button">
+					<label class="container">Brain
+						<input type="checkbox" id="brain">
+						<span class="checkmark"></span>
+					</label>
+				</button>
+				<button class=button9 type="button">
+					<label class="container">Spine
+						<input type="checkbox" id="spine">
+						<span class="checkmark"></span>
+					</label>
+				</button>
+			</fieldset>
+
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
